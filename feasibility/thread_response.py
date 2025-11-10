@@ -20,7 +20,7 @@ params = {
 
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-# token = "f42a5b59aec3467e97a8794c611c436b91589634343"
+# token = "token"
 # proxyModeUrl = "http://{}:@proxy.scrape.do:8080".format(token)
 ## proxyModeUrl = "http://{}:super=true@proxy.scrape.do:8080".format(token)
 ## proxyModeUrl = "http://{}:super=true&geoCode=us@proxy.scrape.do:8080".format(token)
@@ -35,7 +35,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 #     "https": proxy_url,
 # }
 
-# scraper_api_token = '3cab9fca116e97dc833efb1b6464c996'
+# scraper_api_token = 'token'
 # proxies = {
 #     "http": f"http://scraperapi:{scraper_api_token}@proxy-server.scraperapi.com:8001",
 #     "https": f"http://scraperapi:{scraper_api_token}@proxy-server.scraperapi.com:8001"
